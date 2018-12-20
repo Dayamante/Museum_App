@@ -1,3 +1,5 @@
+package com.gurnaud.antoine.museumapp;
+
 public class Profil {
     // fields
     private String image;
@@ -8,7 +10,8 @@ public class Profil {
     private int nbMuseum;
     private int level;
     // constructors
-    public Profil(String image, String firstName, String lastName, int phone, String city, int nbMuseum, int level) {
+    public Profil() {
+        /**
         this.image = image;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -16,6 +19,7 @@ public class Profil {
         this.city = city;
         this.nbMuseum = nbMuseum;
         this.level = level;
+         */
     }
     // properties
     public String getImage() {
